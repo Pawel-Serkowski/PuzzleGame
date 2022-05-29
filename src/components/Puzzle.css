@@ -1,0 +1,34 @@
+.tiles-container{
+    position:relative;
+    background-color:black;
+  
+  }
+  
+  .tile{
+    width:100px;
+    height:100px;
+    background-color:gainsboro;
+    font-size: 'Currier New',sans-serif;
+    font-size:30px;
+    color:darkslategrey;
+    position:absolute;
+  
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+    border: 2px solid #000;
+    border-radius:5px;
+  
+    background:url(../img/fox-image.jpg);
+    cursor:pointer;
+    opacity: 0.8;
+  
+    transition: top,left 300ms ease-out;
+  } 
+  .tile:hover{
+    opacity:1.0;
+  }
+  .empty{
+    display: none;
+  }
