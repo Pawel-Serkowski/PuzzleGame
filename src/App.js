@@ -6,7 +6,7 @@ import Header from './components/Header';
 
 const App = () =>  {
 
-  user_preference_size = 5
+  const user_preference_size = 5
 
   const [size, setSize] = useState(user_preference_size)
   
